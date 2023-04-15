@@ -8,5 +8,7 @@
 模型使用：BernoulliNB, kNN, SVM, GradientBoostingClassifier  
 模型建立：  
  1. 將新聞資料利用 monpa, ckiptagger 斷詞
- 2. 將斷詞好的 token 以 TFIDF 評估 token 重要性，並依重要性取出 100 個 token
+ 2. 將斷詞好的 token 以 TFIDF 評估 token 重要性，並依重要性取出 1000 個 token
  3. 將新聞資料丟入模型訓練，並算出準確率
+-----------------------------------------
+預測結果：
